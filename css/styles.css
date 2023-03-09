@@ -521,6 +521,8 @@ footer {
 
 .item-selection:not(:last-child) {
     margin-right: 24px;
+
+    /* gap: ; переробити */
 }
 
 .selection {
