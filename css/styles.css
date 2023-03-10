@@ -214,6 +214,11 @@ ol {
     display: flex;
 }
 
+.icon {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 .features-box {
     width: 264px;
@@ -521,8 +526,7 @@ footer {
 
 .item-selection:not(:last-child) {
     margin-right: 24px;
-
-    /* gap: ; переробити */
+    /* gap: ; переробити !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 }
 
 .selection {
