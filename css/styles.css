@@ -391,6 +391,8 @@ ol {
     border-radius: 50%;
     background-color: #404BBF;
     margin-top: 8px;
+
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* /=====================** Customers **=====================/ */
@@ -601,6 +603,7 @@ footer {
 }
 
 /* ============================== Bank Foto ================================== */
+
 .bank-foto {
     width: 1158px;
     margin-left: auto;
@@ -616,6 +619,10 @@ footer {
     column-gap: 24px;
     row-gap: 48px;
     flex-basis: calc((100% - 48px) / 3);
+}
+
+.link-foto:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .border-foto {
