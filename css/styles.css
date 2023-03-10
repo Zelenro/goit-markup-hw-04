@@ -540,7 +540,11 @@ footer {
     border-radius: 50%;
 
     background-color: #31D0AA;
-    opacity: 0.9;
+    /* opacity: 0.9; */
+}
+
+.footer-icon {
+    color: #FFFFFF;
 }
 
 .media-list-link {
