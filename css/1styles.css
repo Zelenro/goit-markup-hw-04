@@ -539,18 +539,13 @@ footer {
     height: 40px;
     border-radius: 50%;
 
-    background-color: lightgrey;
+    background-color: #31D0AA;
 
 }
 
 .footer-icon {
-    /* justify-content: center; */
-    /* align-items: center; */
-    color: ##F4F4FD;
-}
 
-.media-list-link {
-    color: #404BBF;
+    color: ##F4F4FD;
 }
 
 
