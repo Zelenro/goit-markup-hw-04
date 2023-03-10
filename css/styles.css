@@ -250,6 +250,14 @@ ol {
     margin-right: 22px;
 }
 
+.features-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 /* /=====================** Work **=====================/ */
 .section-work {
     width: 1158px;
@@ -429,12 +437,20 @@ ol {
     margin-right: 24px;
 }
 
+.customers-organisation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 /* /=====================** Footer **=====================/ */
 
 footer {
     background-color: #2E2F42;
     padding-left: 15px;
     padding-right: 15px;
+    display: flex;
 }
 
 .footer {
@@ -442,8 +458,10 @@ footer {
     margin-right: auto;
     width: 1158px;
     height: 310px;
-    /* padding-top: 100px;
-    padding-bottom: 100px; */
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+
 }
 
 .footer-list {
@@ -485,6 +503,14 @@ footer {
     width: 264px;
 }
 
+.sotial-media-block {
+    margin-left: 120px;
+}
+
+.sotial-media-list {
+    display: flex;
+}
+
 .sotial-media {
     font-weight: 500;
     font-size: 16px;
@@ -493,29 +519,6 @@ footer {
     color: #FFFFFF;
 
 }
-
-.footer-data {
-    /* background-color: #404BBF; */
-}
-
-.footer-data:not(:last-child) {
-    margin-right: 120px;
-}
-
-.sotial-media-block {}
-
-
-.sotial-media-list {
-    display: flex;
-    margin-top: 16px;
-}
-
-.media-list:not(:last-child) {
-    margin-right: 24px;
-}
-
-.media-list {}
-
 
 
 /* ============================== Portfolio ================================== */
