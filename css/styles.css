@@ -162,7 +162,7 @@ ol {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: #2E2F42;
+    /* background-color: #2E2F42; */
 }
 
 .title-hero {
@@ -327,7 +327,6 @@ ol {
 
 .team-foto {
     display: flex;
-    /* flex-basis: calc((100% - 24px) / 3); */
 }
 
 .team:not(:last-child) {
@@ -363,15 +362,10 @@ ol {
 
 
 .team-connect {
-    /* padding-top: 8px; */
-    /* padding-bottom: 32px; */
-    /* padding-right: 16px; */
-    /* padding-left: 16px; */
+
     display: flex;
     margin-left: auto;
     margin-right: auto;
-
-    /* background-color: #434455; */
 }
 
 .icon-team {
@@ -392,7 +386,6 @@ ol {
     background-color: #404BBF;
     margin-top: 8px;
 
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 /* /=====================** Customers **=====================/ */
@@ -429,7 +422,6 @@ ol {
 .customers-organisation {
     height: 88px;
     width: 168px;
-    /* background-color: #404BBF; */
     display: flex;
     border: 1px solid #8E8F99;
     border-radius: 4px;
@@ -446,13 +438,58 @@ ol {
 }
 
 
+
+
+.customers-organisation:hover,
+.customers-organisation:focus {
+    border-color: #404BBF;
+}
+
+.icon {
+    display: flex;
+    /* background-color: #4D5AE5; */
+    fill: #404BBF;
+}
+
+
+.icon-list {
+    display: block;
+    justify-items: center;
+    align-items: center;
+    /* background-color: red; */
+    fill: yellow;
+
+}
+
+.customers-organisation:hover .icon,
+.customers-organisation:focus .icon {
+    background-color: #404BBF;
+    fill: #404BBF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* /=====================** Footer **=====================/ */
 
 footer {
+    /* background: #2E2F42; */
     background-color: #2E2F42;
     padding-left: 15px;
     padding-right: 15px;
     display: flex;
+
 }
 
 .footer {
@@ -463,6 +500,7 @@ footer {
     padding-top: 100px;
     padding-bottom: 100px;
     display: flex;
+
 
 }
 
@@ -505,24 +543,22 @@ footer {
     width: 264px;
 }
 
-.sotial-media-block {
+.social-media-block {
     margin-left: 120px;
-    /* background-color: #8E8F99; */
 }
 
-.sotial-media-list {
+.social-media-list {
     display: flex;
     margin-top: 24px;
-
+    opacity: 0.1;
 }
 
-.sotial-media {
+.social-media {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-
 }
 
 
@@ -532,26 +568,27 @@ footer {
 
 
 .media-list {
+    box-sizing: border-box;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 40px;
     height: 40px;
     border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #31D0AA;
+}
 
-    background-color: lightgrey;
+.media-list:hover {
+    background-color: #31D0AA;
+
 
 }
 
-.footer-icon {
-    /* justify-content: center; */
-    /* align-items: center; */
-    color: ##F4F4FD;
-}
 
-.media-list-link {
-    color: #404BBF;
-}
+.footer-icon {}
+
+
 
 
 
@@ -606,6 +643,11 @@ footer {
     background-color: #404BBF;
     color: #FFFFFF;
 }
+
+
+
+
+
 
 /* ============================== Bank Foto ================================== */
 
