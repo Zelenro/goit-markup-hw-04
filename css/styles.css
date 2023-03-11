@@ -435,6 +435,7 @@ ol {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -457,14 +458,15 @@ ol {
     justify-items: center;
     align-items: center;
     /* background-color: red; */
-    fill: yellow;
+
 
 }
 
-.customers-organisation:hover .icon,
-.customers-organisation:focus .icon {
+.customers-organisation:hover .icon-list .icon,
+.customers-organisation:focus .icon-list .icon {
     background-color: #404BBF;
     fill: #404BBF;
+    fill: limegreen;
 }
 
 
