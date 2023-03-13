@@ -317,6 +317,7 @@ ol {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--color-text-title);
+
 }
 
 .title-team {
@@ -360,12 +361,15 @@ ol {
     border-radius: 0px 0px 4px 4px;
 }
 
+.logo-team-icom {
+    padding: 8px 16px 32px 16px;
+}
 
 .team-connect {
 
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
+
+
 }
 
 .icon-team {
@@ -383,10 +387,17 @@ ol {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #404BBF;
+    background-color: #4D5AE5;
+    ;
     margin-top: 8px;
 
 }
+
+.team-list-icon:hover,
+.team-list-icon:focus {
+    background-color: #404BBF;
+}
+
 
 /* /=====================** Customers **=====================/ */
 .customers-block {
@@ -446,11 +457,15 @@ ol {
     border-color: #404BBF;
 }
 
-.icon {
+.icona {
     display: block;
     /* background-color: #4D5AE5; */
     /* fill: #4fbf40; */
     /* color: #4fbf40; */
+}
+
+.qwerty:hover {
+    fill: #404BBF;
 }
 
 
@@ -585,6 +600,7 @@ footer {
 .media-list:hover,
 .media-list:focus {
     background-color: #31D0AA;
+    ;
     fill: #404BBF;
 
 
