@@ -447,9 +447,10 @@ ol {
 }
 
 .icon {
-    display: flex;
+    display: block;
     /* background-color: #4D5AE5; */
-    fill: #404BBF;
+    /* fill: #4fbf40; */
+    /* color: #4fbf40; */
 }
 
 
@@ -466,8 +467,9 @@ ol {
 .customers-organisation:focus .icon-list .icon {
     background-color: #404BBF;
     fill: #404BBF;
-    fill: limegreen;
+    /* fill: limegreen; */
 }
+
 
 
 
@@ -552,7 +554,6 @@ footer {
 .social-media-list {
     display: flex;
     margin-top: 24px;
-    opacity: 0.1;
 }
 
 .social-media {
@@ -578,17 +579,21 @@ footer {
     height: 40px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.1);
-    /* background-color: #31D0AA; */
-}
-
-.media-list:hover {
-    /* background-color: #31D0AA; */
-
 
 }
 
+.media-list:hover,
+.media-list:focus {
+    background-color: #31D0AA;
+    fill: #404BBF;
 
-.footer-icon {}
+
+}
+
+
+.footer-icon:hover {
+    fill: #404BBF;
+}
 
 
 
