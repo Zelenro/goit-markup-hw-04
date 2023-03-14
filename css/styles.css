@@ -23,6 +23,7 @@ body {
     --color-text-foter: #E7E9FC;
     --color-button-normal: #4D5AE5;
     --color-button-hover: #404BBF;
+    --LIGHT-SLATE
 }
 
 .link {
@@ -417,17 +418,32 @@ ol {
     border: 1px solid #8E8F99;
     border-radius: 4px;
     cursor: pointer;
+
+    /* flex-wrap: nowrap; */
+    /* gap: 24px; */
+    /* flex-basis: calc((100% - 120px) / 6); */
+
 }
 
 .customers-organisation:not(:last-child) {
     margin-right: 24px;
 }
 
+
 .customers-svg {
-    justify-content: center;
-    align-items: center;
+    width: 104px;
+    height: 56px;
     fill: #AFB1B8;
 }
+
+
+/* .customers-link {} */
+
+/* .customers-link:is(:hover, :focus) { */
+/* fill: #404BBF; */
+/* border-color: #404BBF;} */
+
+
 
 .customers-organisation:hover,
 .customers-organisation:focus {
@@ -436,11 +452,8 @@ ol {
 
 .customers-organisation:hover .customers-svg,
 .customers-organisation:focus .customers-svg {
-    fill: #404BBF
+    fill: #404BBF;
 }
-
-
-
 
 
 /* /=====================** Footer **=====================/ */
@@ -504,7 +517,6 @@ footer {
 
 .social-media-list {
     display: flex;
-    /* margin-top: 24px; */
 }
 
 .social-media {
@@ -516,10 +528,15 @@ footer {
     margin-bottom: 16px;
 }
 
-
-.media-list:not(:last-child) {
-    margin-right: 16px;
+.social-media-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+    flex-basis: calc((100% - 48px) / 4);
 }
+
+/* .media-list:not(:last-child) { */
+/* margin-right: 16px;} */
 
 
 .media-list {
@@ -595,12 +612,8 @@ footer {
 .selection:focus {
     background-color: #404BBF;
     color: #FFFFFF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
-
-
-
-
 
 /* ============================== Bank Foto ================================== */
 
