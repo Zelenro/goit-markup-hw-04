@@ -239,7 +239,7 @@ ol {
 }
 
 .features-item:not(:last-child) {
-    margin-right: 22px;
+    margin-right: 24px;
 }
 
 .features-box {
